@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="my project">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Makho kukhianidze">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Currency Converter</title>
+    <link rel="icon" href="assets/icons/m.png" type="image/x-icon">
+
+<body>
+
+    <div class="main-container">
+        <div class="background-board">
+            <h1>Max's Currency Converter</h1>
+            <div class="flag-and-text">
+                <img src="assets/icons/country/euro.png" alt="euro"> <label for="euro"> EUR </label>
+                <input type="number" id="euro" placeholder="Write number" onchange="EuroConvert()" />
+            </div>
+            <div class="flag-and-text">
+                <img src="assets/icons/country/um.svg" alt="geo"><label for="dollar"> USD </label>
+                <input type="number" id="dollar" placeholder="Write number" onchange="DollarConvert()" />
+            </div>
+            <div class="flag-and-text">
+                <img src="assets/icons/country/ge.svg" alt="geo"><label for="gel"> GEL </label>
+                <input type="number" id="gel" placeholder="Write number" onchange="GelConvert()" />
+            </div>
+            <div class="flag-and-text">
+                <img src="assets/icons/country/russia.png" alt="geo"><label for="rub"> RUB </label>
+                <input type="number" id="rub" placeholder="Write number" onchange="RubConvert()" />
+            </div>
+        </div>
+
+        <div class="background-board">
+            <div class="flag-and-text">
+                <img src="assets/icons/country/jp.svg" alt="geo"> <label for="euro"> YEN </label>
+                <input type="number" id="yen" placeholder="Write number" onchange="YenConvert()" />
+            </div>
+            <div class="flag-and-text">
+                <img src="assets/icons/country/swedish.png" alt="geo"><label for="dollar"> KRO </label>
+                <input type="number" id="kro" placeholder="Write number" onchange="Krofunc()" />
+            </div>
+            <div class="flag-and-text">
+                <img src="assets/icons/country/gb.svg" alt="geo"><label for="gpb"> GBP </label>
+                <input type="number" id="gpb" placeholder="Write number" onchange="Gbpfunc()" />
+            </div>
+            <div class="flag-and-text">
+                <img src="assets/icons/country/swiss.png" alt="geo"><label for="fra"> FRA </label>
+                <input type="number" id="fra" placeholder="Write number" onchange="Frafunc()" />
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/Currency-Converter.js"></script>
+</body>
+
+</html>
